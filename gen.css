@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ID Card Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>ID Card Information Form</h2>
+    <form id="idForm" action="#" method="post" enctype="multipart/form-data">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="department">Department:</label>
+      <input type="text" id="department" name="department" required>
+
+      <label for="matric">Matric No:</label>
+      <input type="text" id="matric" name="20/55EJ237" required>
+
+      <label for="skills">Skill (e.g. HTML, CSS):</label>
+      <input type="text" id="skills" name="skills" required>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email"required>
+
+      <label for="photo">Upload Your Picture:</label>
+      <input type="file" id="photo" name="photo" accept="image/*" required>
+
+      
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
